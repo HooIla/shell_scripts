@@ -23,6 +23,7 @@ sudo nvidia-ctk runtime configure --runtime=docker
 sudo systemctl daemon-reload
 sudo systemctl enable docker
 sudo systemctl restart docker
+sudo apt-mark hold linux-image-generic linux-headers-generic # lock the kernel version
 echo -e "\n========================================"
 echo -e "Driver installation completed. Please reboot the system."
 echo -e "========================================\n"
