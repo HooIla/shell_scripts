@@ -3,7 +3,7 @@ sudo apt update
 sudo apt install -y alsa-utils
 sudo apt install -y pciutils ubuntu-drivers-common
 sudo apt install nvidia-driver-580-server -y
-sudo apt install nvidia-driver-535-server -ynvi
+sudo apt install nvidia-driver-535-server -y
 
 curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/aliyun-docker.gpg
 echo \
